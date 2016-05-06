@@ -34,6 +34,14 @@
       <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -47,17 +55,18 @@
   <ItemGroup>
     <Compile Include="Data\Entity.cs" />
     <Compile Include="Data\EntityExtensions.cs" />
+    <Compile Include="Data\EntityFramework\ContentContext.cs" />
+    <Compile Include="Data\EntityFramework\EntityPager.cs" />
+    <Compile Include="Data\EntityFramework\IContentContext.cs" />
+    <Compile Include="Data\EntityFramework\IRepository.cs" />
+    <Compile Include="Data\EntityFramework\Repository.cs" />
     <Compile Include="Data\IDto.cs" />
     <Compile Include="Data\IEntity.cs" />
     <Compile Include="Data\IgnoreDataMappingAttribute.cs" />
     <Compile Include="Data\ILogable.cs" />
-    <Compile Include="Data\ISpecification.cs" />
-    <Compile Include="Data\IStoredProcedure.cs" />
     <Compile Include="Data\ITrackable.cs" />
     <Compile Include="Data\LogableEntity.cs" />
     <Compile Include="Data\SortDirection.cs" />
-    <Compile Include="Data\StoredProcedureParameter.cs" />
-    <Compile Include="Data\StoredProcedureParsable.cs" />
     <Compile Include="Data\TrackableEntity.cs" />
     <Compile Include="Helpers\DateFormater.cs" />
     <Compile Include="Helpers\Seo.cs" />
@@ -74,6 +83,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Data\Dapper\" />
     <Folder Include="ErrorHandler\" />
     <Folder Include="FileIO\" />
     <Folder Include="Ioc\" />
@@ -82,6 +92,7 @@
     <Folder Include="Web\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
