@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Dapper\IConnectionFactory.cs" />
     <Compile Include="Data\Entity.cs" />
     <Compile Include="Data\EntityExtensions.cs" />
     <Compile Include="Data\EntityFramework\ContentContext.cs" />
@@ -83,7 +84,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\Dapper\" />
     <Folder Include="ErrorHandler\" />
     <Folder Include="FileIO\" />
     <Folder Include="Ioc\" />
