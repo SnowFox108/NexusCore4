@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Car.cs" />
+    <Compile Include="Entities\CarGroupType.cs" />
+    <Compile Include="Entities\FuelType.cs" />
+    <Compile Include="Entities\GearType.cs" />
+    <Compile Include="Entities\Maker.cs" />
+    <Compile Include="Entities\Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +55,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
