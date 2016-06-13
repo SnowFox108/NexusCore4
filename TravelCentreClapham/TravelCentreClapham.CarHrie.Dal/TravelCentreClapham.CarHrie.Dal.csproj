@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,12 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllGroupEnums.cs" />
     <Compile Include="Entities\Car.cs" />
-    <Compile Include="Entities\CarGroupType.cs" />
-    <Compile Include="Entities\FuelType.cs" />
-    <Compile Include="Entities\GearType.cs" />
+    <Compile Include="Entities\Currency.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Deal.cs" />
+    <Compile Include="Entities\DealExtra.cs" />
+    <Compile Include="Entities\Discount.cs" />
+    <Compile Include="Entities\Location.cs" />
     <Compile Include="Entities\Maker.cs" />
     <Compile Include="Entities\Model.cs" />
+    <Compile Include="Entities\TermsAndCondition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

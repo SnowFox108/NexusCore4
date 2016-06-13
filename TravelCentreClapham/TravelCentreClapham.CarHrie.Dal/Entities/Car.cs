@@ -13,7 +13,7 @@ namespace TravelCentreClapham.CarHrie.Dal.Entities
         public Model Model { get; set; }
         public CarGroupType GroupType { get; set; }
         public GearType GearType { get; set; }
-        public FuelType FuelType { get; set; }
+        public FeulType FuelType { get; set; }
         public int EngineCapacity { get; set; }
         public int NumberOfSeats { get; set; }
         public int NumberOfSuitcases { get; set; }
