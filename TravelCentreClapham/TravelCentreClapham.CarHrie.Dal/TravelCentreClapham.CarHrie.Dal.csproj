@@ -51,6 +51,12 @@
     <Compile Include="Entities\Location.cs" />
     <Compile Include="Entities\Maker.cs" />
     <Compile Include="Entities\Model.cs" />
+    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Entities\OrderDealExtra.cs" />
+    <Compile Include="Entities\OrderDiscount.cs" />
+    <Compile Include="Entities\OrderProgress.cs" />
+    <Compile Include="Entities\OrderStatus.cs" />
+    <Compile Include="Entities\OrderTransaction.cs" />
     <Compile Include="Entities\TermsAndCondition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

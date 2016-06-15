@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
 
 namespace TravelCentreClapham.CarHrie.Dal
 {
@@ -61,7 +56,14 @@ namespace TravelCentreClapham.CarHrie.Dal
         Exact = 1,
         [EnumMember(Value = "Percentage")]
         Percentage = 2,
-    }   
+    }
 
+    public enum TransactionStatus
+    {
+        [EnumMember(Value = "Success")]
+        Success = 1,
+        [EnumMember(Value = "Reject")]
+        Reject = 2,
+    }
 
 }
