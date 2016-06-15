@@ -21,7 +21,7 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
             _contentContext?.Dispose();
         }
 
-        public void Insert(params TEntity[] items)
+        public virtual void Insert(params TEntity[] items)
         {
             foreach (var item in items)
             {
@@ -45,13 +45,13 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
             }
         }
 
-        public void Delete(params object[] ids)
+        public virtual void Delete(params object[] ids)
         {
             foreach (var id in ids)
                 Delete(_contentContext.CreateSet<TEntity>().Find(id));
         }
 
-        public void Delete(TEntity item)
+        public virtual void Delete(TEntity item)
         {
             if (item != null)
             {
@@ -64,7 +64,7 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
             }
         }
 
-        public void Update(TEntity item)
+        public virtual void Update(TEntity item)
         {
             if (item != null)
             {
@@ -83,7 +83,7 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
             }
         }
 
-        public void TrackItem(TEntity item)
+        public virtual void TrackItem(TEntity item)
         {
             if (item != null)
                 _contentContext.Attach(item);
@@ -93,19 +93,19 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
             }
         }
 
-        public void Merge(TEntity persisted, TEntity current)
+        public virtual void Merge(TEntity persisted, TEntity current)
         {
             _contentContext.ApplyCurrentValues(persisted, current);
         }
 
-        public TEntity GetById(params object[] id)
+        public virtual TEntity GetById(params object[] id)
         {
             if (id != null)
                 return _contentContext.CreateSet<TEntity>().Find(id);
             return null;
         }
 
-        public IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, EntityPager<TEntity> pager = null,
+        public virtual IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, EntityPager<TEntity> pager = null,
             string includeProperties = "")
         {
             IQueryable<TEntity> query = _contentContext.CreateSet<TEntity>();
