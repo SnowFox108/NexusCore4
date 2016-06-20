@@ -9,16 +9,16 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity: Entity
     {
-        private readonly IContentContext _contentContext;
+        protected readonly IContentContext ContentContext;
 
         public Repository(IContentContext contentContext)
         {
-            _contentContext = contentContext;
+            ContentContext = contentContext;
         }
 
         public void Dispose()
         {
-            _contentContext?.Dispose();
+            ContentContext?.Dispose();
         }
 
         public virtual void Insert(params TEntity[] items)
@@ -36,7 +36,7 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
                         UpdateLogableItem(logger);
                     }
 
-                    _contentContext.CreateSet<TEntity>().Add(item);
+                    ContentContext.CreateSet<TEntity>().Add(item);
                 }
                 else
                 {
@@ -48,15 +48,15 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
         public virtual void Delete(params object[] ids)
         {
             foreach (var id in ids)
-                Delete(_contentContext.CreateSet<TEntity>().Find(id));
+                Delete(ContentContext.CreateSet<TEntity>().Find(id));
         }
 
         public virtual void Delete(TEntity item)
         {
             if (item != null)
             {
-                _contentContext.Attach(item);
-                _contentContext.CreateSet<TEntity>().Remove(item);
+                ContentContext.Attach(item);
+                ContentContext.CreateSet<TEntity>().Remove(item);
             }
             else
             {
@@ -68,7 +68,7 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
         {
             if (item != null)
             {
-                _contentContext.SetModified(item);
+                ContentContext.SetModified(item);
 
                 // check trackable item for create
                 if (item.GetType().GetInterfaces().Contains(typeof(ITrackable)))
@@ -86,7 +86,7 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
         public virtual void TrackItem(TEntity item)
         {
             if (item != null)
-                _contentContext.Attach(item);
+                ContentContext.Attach(item);
             else
             {
                 //TODO create null error log
@@ -95,20 +95,20 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
 
         public virtual void Merge(TEntity persisted, TEntity current)
         {
-            _contentContext.ApplyCurrentValues(persisted, current);
+            ContentContext.ApplyCurrentValues(persisted, current);
         }
 
         public virtual TEntity GetById(params object[] id)
         {
             if (id != null)
-                return _contentContext.CreateSet<TEntity>().Find(id);
+                return ContentContext.CreateSet<TEntity>().Find(id);
             return null;
         }
 
         public virtual IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, EntityPager<TEntity> pager = null,
             string includeProperties = "")
         {
-            IQueryable<TEntity> query = _contentContext.CreateSet<TEntity>();
+            IQueryable<TEntity> query = ContentContext.CreateSet<TEntity>();
 
             if (filter != null)
                 query = query.Where(filter);

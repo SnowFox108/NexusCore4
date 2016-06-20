@@ -59,6 +59,10 @@
     <Compile Include="Entities\OrderTransaction.cs" />
     <Compile Include="Entities\TermsAndCondition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IMakerRepository.cs" />
+    <Compile Include="Repositories\IModelRepository.cs" />
+    <Compile Include="Repositories\MakerRepository.cs" />
+    <Compile Include="Repositories\ModelRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\NexusCore.Infrastructure\NexusCore.Infrastructure.csproj">
@@ -66,9 +70,7 @@
       <Name>NexusCore.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
