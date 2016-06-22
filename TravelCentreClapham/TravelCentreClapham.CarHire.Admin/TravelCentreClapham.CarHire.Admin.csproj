@@ -279,6 +279,24 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NexusCore.Infrastructure\NexusCore.Infrastructure.csproj">
+      <Project>{2dba50c7-aaf6-4536-aa5b-e9cef0aeab2e}</Project>
+      <Name>NexusCore.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TravelCentreClapham.CarHire.Common\TravelCentreClapham.CarHire.Common.csproj">
+      <Project>{58d779d1-dc88-4bc0-8731-dce0f8a06afc}</Project>
+      <Name>TravelCentreClapham.CarHire.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TravelCentreClapham.CarHire.Main\TravelCentreClapham.CarHire.Main.csproj">
+      <Project>{c4f7855f-5ba3-4fa0-8b38-a38e8bc2ab4e}</Project>
+      <Name>TravelCentreClapham.CarHire.Main</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TravelCentreClapham.CarHrie.Dal\TravelCentreClapham.CarHrie.Dal.csproj">
+      <Project>{6a35bc8a-2691-4f66-b4b8-1fb91fd40bea}</Project>
+      <Name>TravelCentreClapham.CarHrie.Dal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
