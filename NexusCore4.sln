@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.CarHire
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.CarHire.Main", "TravelCentreClapham\TravelCentreClapham.CarHire.Main\TravelCentreClapham.CarHire.Main.csproj", "{C4F7855F-5BA3-4FA0-8B38-A38E8BC2AB4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.CarHire.Web", "TravelCentreClapham\TravelCentreClapham.CarHire.Web\TravelCentreClapham.CarHire.Web.csproj", "{01BE932D-A61B-470E-9903-F02A730E7660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.CarHire.Admin", "TravelCentreClapham\TravelCentreClapham.CarHire.Admin\TravelCentreClapham.CarHire.Admin.csproj", "{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C4F7855F-5BA3-4FA0-8B38-A38E8BC2AB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F7855F-5BA3-4FA0-8B38-A38E8BC2AB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F7855F-5BA3-4FA0-8B38-A38E8BC2AB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BE932D-A61B-470E-9903-F02A730E7660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BE932D-A61B-470E-9903-F02A730E7660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BE932D-A61B-470E-9903-F02A730E7660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BE932D-A61B-470E-9903-F02A730E7660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +61,7 @@ Global
 		{6A35BC8A-2691-4F66-B4B8-1FB91FD40BEA} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
 		{58D779D1-DC88-4BC0-8731-DCE0F8A06AFC} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
 		{C4F7855F-5BA3-4FA0-8B38-A38E8BC2AB4E} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
+		{01BE932D-A61B-470E-9903-F02A730E7660} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
+		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
 	EndGlobalSection
 EndGlobal

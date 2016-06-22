@@ -10,6 +10,7 @@ namespace TravelCentreClapham.CarHrie.Dal.Entities
     public class Model : Entity
     {
         public string Name { get; set; }
+        public Maker Maker { get; set; }
         public IEnumerable<Car> Cars { get; set; }
     }
 }

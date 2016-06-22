@@ -9,7 +9,6 @@ namespace TravelCentreClapham.CarHrie.Dal.Entities
 {
     public class Car : Entity
     {
-        public Maker Maker { get; set; }
         public Model Model { get; set; }
         public CarGroupType GroupType { get; set; }
         public GearType GearType { get; set; }
