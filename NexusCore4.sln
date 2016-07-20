@@ -21,6 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.CarHire
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.CarHire.Admin", "TravelCentreClapham\TravelCentreClapham.CarHire.Admin\TravelCentreClapham.CarHire.Admin.csproj", "{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlyAfricaDirect", "FlyAfricaDirect", "{8C1EC952-6D24-406E-8B9F-A83BA3501955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.FlyAfricaDirect.Dal", "TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\TravelCentreClapham.FlyAfricaDirect.Dal.csproj", "{3048FAB3-237E-418B-BA3D-FC3E7AEED418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.FlyAfricaDirect.Common", "TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\TravelCentreClapham.FlyAfricaDirect.Common.csproj", "{4C491771-0F0D-4B35-A141-12964B7F6090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.FlyAfricaDirect.Main", "TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\TravelCentreClapham.FlyAfricaDirect.Main.csproj", "{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.FlyAfricaDirect.WebApi", "TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.WebApi\TravelCentreClapham.FlyAfricaDirect.WebApi.csproj", "{2F671480-81DE-461D-B505-FB80221A123B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +61,22 @@ Global
 		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3048FAB3-237E-418B-BA3D-FC3E7AEED418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3048FAB3-237E-418B-BA3D-FC3E7AEED418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3048FAB3-237E-418B-BA3D-FC3E7AEED418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3048FAB3-237E-418B-BA3D-FC3E7AEED418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C491771-0F0D-4B35-A141-12964B7F6090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C491771-0F0D-4B35-A141-12964B7F6090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C491771-0F0D-4B35-A141-12964B7F6090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C491771-0F0D-4B35-A141-12964B7F6090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F671480-81DE-461D-B505-FB80221A123B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F671480-81DE-461D-B505-FB80221A123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F671480-81DE-461D-B505-FB80221A123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F671480-81DE-461D-B505-FB80221A123B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +89,10 @@ Global
 		{C4F7855F-5BA3-4FA0-8B38-A38E8BC2AB4E} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
 		{01BE932D-A61B-470E-9903-F02A730E7660} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
 		{D94A25BA-542C-4B23-8EFF-2ABEA6C85DAE} = {E9BA2716-7D06-4649-A6DE-DA79362D14E6}
+		{8C1EC952-6D24-406E-8B9F-A83BA3501955} = {9ECAC6A3-9917-4DBE-B21B-DE8594812A65}
+		{3048FAB3-237E-418B-BA3D-FC3E7AEED418} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
+		{4C491771-0F0D-4B35-A141-12964B7F6090} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
+		{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
+		{2F671480-81DE-461D-B505-FB80221A123B} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
 	EndGlobalSection
 EndGlobal
