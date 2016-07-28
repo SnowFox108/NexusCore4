@@ -39,13 +39,9 @@ namespace NexusCore.Infrastructure.Mappers
             var sourceProperties = typeof(TSource).GetProperties().Select(s => s.Name);
             var targetProperties = typeof(TTarget).GetProperties().Select(t => t.Name);
             foreach (var prop in targetProperties.Where(t => sourceProperties.All(s => s != t)))
-            {
                 expression.ForMember(prop, opt => opt.Ignore());
-            }
-
             return expression;
         }
-
 
     }
 }

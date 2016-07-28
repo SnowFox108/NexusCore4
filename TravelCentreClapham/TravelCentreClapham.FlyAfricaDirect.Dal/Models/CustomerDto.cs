@@ -1,9 +1,10 @@
 ﻿using System.Runtime.Serialization;
+using NexusCore.Infrastructure.Data;
 
 namespace TravelCentreClapham.FlyAfricaDirect.Dal.Models
 {
     [DataContract]
-    public class CustomerDto
+    public class CustomerDto : IDto
     {
         [DataMember]
         public PromotionGroupType PromotionGroupType { get; set; }
