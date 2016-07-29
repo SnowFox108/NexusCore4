@@ -6,7 +6,7 @@ namespace TravelCentreClapham.FlyAfricaDirect.Dal
 {
     public class FlyAfricaDirectContentContext : ContentContext
     {
-        public FlyAfricaDirectContentContext(string database) : base(database)
+        public FlyAfricaDirectContentContext() : base("FlyAfricaDirect")
         {
         }
 

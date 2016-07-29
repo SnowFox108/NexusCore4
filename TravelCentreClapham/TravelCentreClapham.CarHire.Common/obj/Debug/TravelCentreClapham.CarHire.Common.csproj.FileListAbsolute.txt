@@ -1,0 +1,5 @@
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Common\bin\Debug\TravelCentreClapham.CarHire.Common.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Common\bin\Debug\TravelCentreClapham.CarHire.Common.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Common\obj\Debug\TravelCentreClapham.CarHire.Common.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Common\obj\Debug\TravelCentreClapham.CarHire.Common.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Common\obj\Debug\TravelCentreClapham.CarHire.Common.csprojResolveAssemblyReference.cache

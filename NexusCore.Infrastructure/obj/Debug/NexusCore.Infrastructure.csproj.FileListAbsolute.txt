@@ -1,0 +1,11 @@
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.dll.config
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.dll
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.pdb
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\AutoMapper.dll
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.dll
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\AutoMapper.xml
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.xml
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\Sample\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.dll
+D:\Sample\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.pdb

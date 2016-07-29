@@ -1,0 +1,15 @@
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Main.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Main.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\NexusCore.Infrastructure.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Common.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\AutoMapper.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\EntityFramework.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\NexusCore.Infrastructure.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Common.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\AutoMapper.xml
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\EntityFramework.xml
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Main.csprojResolveAssemblyReference.cache
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Main.dll
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Main.pdb
