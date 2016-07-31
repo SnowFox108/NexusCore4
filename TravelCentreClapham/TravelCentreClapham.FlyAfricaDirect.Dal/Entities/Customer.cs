@@ -2,7 +2,7 @@
 
 namespace TravelCentreClapham.FlyAfricaDirect.Dal.Entities
 {
-    public class Customer : Entity
+    public class Customer : LogableEntity
     {
         public PromotionGroupType PromotionGroupType { get; set; }
         public string FirstName { get; set; }

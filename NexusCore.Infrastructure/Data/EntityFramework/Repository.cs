@@ -43,6 +43,7 @@ namespace NexusCore.Infrastructure.Data.EntityFramework
                     //TODO create null error log later
                 }
             }
+            ContentContext.SaveChanges();
         }
 
         public virtual void Delete(params object[] ids)

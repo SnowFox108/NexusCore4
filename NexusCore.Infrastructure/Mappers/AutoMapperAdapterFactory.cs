@@ -23,7 +23,7 @@ namespace NexusCore.Infrastructure.Mappers
             {
                 foreach (var item in profiles)
                 {
-                    if (item.FullName != "AutoMapper.SelfProfiler`2")
+                    if (item.FullName != "AutoMapper.MapperConfiguration+NamedProfile")
                         cfg.AddProfile(Activator.CreateInstance(item) as Profile);
                 }
             });
