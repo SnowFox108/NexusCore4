@@ -31,10 +31,11 @@ namespace TravelCentreClapham.FlyAfricaDirect.WebApi.App_Start
             //.AsWebApiActionFilterFor<ValuesController>(c => c.Get(default(int)))
             //.InstancePerApiRequest();
 
-            builder.RegisterType<FlyAfricaDirectContentContext>()
-                .As<IContentContext>()
-                .WithParameter("database", "FlyAfricaDirect")
-                .InstancePerLifetimeScope();
+            //builder.RegisterType<FlyAfricaDirectContentContext>()
+            //    .As<IContentContext>()
+            //    .WithParameter("database", "FlyAfricaDirect")
+            //    .InstancePerLifetimeScope();
+            builder.RegisterType<FlyAfricaDirectContentContext>().As<IContentContext>().InstancePerLifetimeScope();
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>().InstancePerLifetimeScope();
             builder.RegisterType<EnquiryFormService>().As<IEnquiryFormService>().InstancePerLifetimeScope();
         }
