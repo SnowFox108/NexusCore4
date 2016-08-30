@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCuttingLayers", "CrossCuttingLayers", "{D98C8714-ED28-4CE1-9A76-721EF438C75F}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.FlyAfricaDirect.Main", "TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\TravelCentreClapham.FlyAfricaDirect.Main.csproj", "{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.FlyAfricaDirect.WebApi", "TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.WebApi\TravelCentreClapham.FlyAfricaDirect.WebApi.csproj", "{2F671480-81DE-461D-B505-FB80221A123B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelCentreClapham.FlyAfricaDirect.Web", "TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Web\TravelCentreClapham.FlyAfricaDirect.Web.csproj", "{93E836CE-06A7-46FB-AAC3-B4CC52A83FA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{2F671480-81DE-461D-B505-FB80221A123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F671480-81DE-461D-B505-FB80221A123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F671480-81DE-461D-B505-FB80221A123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E836CE-06A7-46FB-AAC3-B4CC52A83FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E836CE-06A7-46FB-AAC3-B4CC52A83FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E836CE-06A7-46FB-AAC3-B4CC52A83FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E836CE-06A7-46FB-AAC3-B4CC52A83FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,5 +100,6 @@ Global
 		{4C491771-0F0D-4B35-A141-12964B7F6090} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
 		{F73AD4AF-B0AF-4FA5-A64A-4FC3556266F8} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
 		{2F671480-81DE-461D-B505-FB80221A123B} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
+		{93E836CE-06A7-46FB-AAC3-B4CC52A83FA2} = {8C1EC952-6D24-406E-8B9F-A83BA3501955}
 	EndGlobalSection
 EndGlobal
