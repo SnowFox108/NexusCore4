@@ -8,9 +8,9 @@
             //]).then(function(data) {
             //    $scope.enquiryForm = data[0];
             //});
-            $scope.enquiryForm = {
-                FirstName: "",
-                LastName: ""
+            $scope.enquiryForm.error = {
+                firstNameRequired: false,
+                lastNameRequired: false
             };
         };
 
@@ -21,6 +21,15 @@
             //    $scope.result = data[0];
             //    $scope.success();
             //});
+        };
+
+        $scope.validate = function () {
+
+            if (angular.isUndefined($scope.enquiryForm.FirstName))
+                $scope.enquiryForm.error.firstNameRequired = true;
+            if (angular.isUndefined($scope.enquiryForm.LastName))
+                $scope.enquiryForm.error.firstNameRequired = true;
+
         };
 
         $scope.success = function() {
