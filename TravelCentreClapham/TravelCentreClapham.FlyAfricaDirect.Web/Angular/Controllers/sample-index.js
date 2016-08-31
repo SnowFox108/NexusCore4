@@ -4,7 +4,7 @@
     angular.module('nexusCore.Web').controller('sample', function($scope, apiCall, dataConverter, dialogs) {
         $scope.init = function() {
             //apiCall([
-            //    { url: "/ModelBuilder/Customer" }
+            //    { url: "/ModelBuilder/AfricanWebsiteOffer01" }
             //]).then(function(data) {
             //    $scope.enquiryForm = data[0];
             //});
