@@ -17,8 +17,9 @@
 
             var call = apiCalls.map(function (callHeader) {
                 var deffered = $q.defer();
+                var url = "http://localhost:50505/api" + callHeader.url;
                 $http({
-                    url: callHeader.url,
+                    url: url,
                     method: callHeader.postMethod,
                     params: callHeader.params,
                     data: callHeader.data

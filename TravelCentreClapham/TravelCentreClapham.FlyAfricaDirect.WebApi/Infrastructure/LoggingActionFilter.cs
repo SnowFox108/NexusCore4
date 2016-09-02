@@ -1,4 +1,6 @@
-﻿using System.Web.Http.Controllers;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 using Autofac.Integration.WebApi;
 
@@ -6,16 +8,14 @@ namespace TravelCentreClapham.FlyAfricaDirect.WebApi.Infrastructure
 {
     public class LoggingActionFilter : IAutofacActionFilter
     {
-        public void OnActionExecuting(HttpActionContext actionContext)
+        public Task OnActionExecutedAsync(HttpActionExecutedContext actionExecutedContext, CancellationToken cancellationToken)
         {
-            //TODO add logging here
-            // _logger.Write(actionContext.ActionDescriptor.ActionName);
+            throw new System.NotImplementedException();
         }
 
-        public void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
+        public Task OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
         {
-            //TODO add logging here
-            // _logger.Write(actionExecutedContext.ActionContext.ActionDescriptor.ActionName);
+            throw new System.NotImplementedException();
         }
     }
 }
