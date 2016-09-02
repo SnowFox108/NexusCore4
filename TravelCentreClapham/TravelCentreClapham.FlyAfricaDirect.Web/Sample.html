@@ -23,7 +23,7 @@
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 </head>
 <body ng-app="nexusCore.Web">
-<div ng-controller="sample as sampleController" ng-init="init()">
+<div class="row" ng-controller="sample as sampleController" ng-init="init()">
     <!-- BEGIN FORM-->
     <form novalidate>
         <table>
@@ -31,8 +31,8 @@
                 <th>First Name
                 </th>
                 <td>
-                    <input type="text" placeholder="First Name" ng-model="enquiryForm.FirstName" required/>
-                    <div ng-show="!enquiryForm.FirstName">Please</div>
+                    <input type="text" placeholder="First Name" ng-model="enquiryForm.value.FirstName" required/>
+                    <div ng-show="enquiryForm.error.firstNameRequired">Please enter your firstname.</div>
                 </td>
             </tr>
             <tr>
@@ -40,8 +40,8 @@
                     Last Name
                 </th>
                 <td>
-                    <input type="text" placeholder="Last Name" ng-model="enquiryForm.LastName" required/>
-                    <div ng-show="enquiryForm.LastName.$invalid">Please</div>
+                    <input type="text" placeholder="Last Name" ng-model="enquiryForm.value.LastName" required/>
+                    <div ng-show="enquiryForm.error.lastNameRequired">Please enter your lastname.</div>
                 </td>
             </tr>
             <tr>
