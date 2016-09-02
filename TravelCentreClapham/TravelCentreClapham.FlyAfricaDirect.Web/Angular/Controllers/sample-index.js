@@ -7,35 +7,35 @@
                 value: {},
                 error: {}
             };
-            //apiCall([
-            //    { url: "/ModelBuilder/AfricanWebsiteOffer01" }
-            //]).then(function(data) {
-            //    $scope.enquiryForm = data[0];
-            //});
-
-            $scope.resetValidation();
+            apiCall([
+                { url: "/ModelBuilder/AfricanWebsiteOffer01" }
+            ]).then(function(data) {
+                $scope.enquiryForm.value = data[0];
+                $scope.resetValidation();
+                console.log($scope.enquiryForm.value);
+            });
         };
 
         $scope.submit = function() {
-            //apiCall([
-            //    { postMethod: "POST", url: "/Enquiry", data: { customer: $scope.enquiryForm } }
-            //]).then(function(data) {
-            //    $scope.result = data[0];
-            //    $scope.success();
-            //});
             if ($scope.validate()) {
                 console.log("good");
+                apiCall([
+                    { postMethod: "POST", url: "/Enquiry", data: { customer: $scope.enquiryForm.value } }
+                ]).then(function (data) {
+                    $scope.result = data[0];
+                    $scope.success();
+                });
             }
         };
 
         $scope.validate = function () {
             $scope.resetValidation();
             var isValid = true;
-            if (angular.isUndefined($scope.enquiryForm.value.FirstName)) {
+            if (angular.isUndefined($scope.enquiryForm.value.FirstName) || $scope.enquiryForm.value.FirstName == null) {
                 $scope.enquiryForm.error.firstNameRequired = true;
                 isValid = false;
             }
-            if (angular.isUndefined($scope.enquiryForm.value.LastName)) {
+            if (angular.isUndefined($scope.enquiryForm.value.LastName) || $scope.enquiryForm.value.LastName == null) {
                 $scope.enquiryForm.error.lastNameRequired = true;
                 isValid = false;
             }
