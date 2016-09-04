@@ -18,7 +18,7 @@ namespace TravelCentreClapham.FlyAfricaDirect.Dal.Entities
         public string County { get; set; }
         public string Postcode { get; set; }
         public string Gender { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        public DateTime? DateOfBirth { get; set; }
         public bool IsReceiveEmail { get; set; }
 
     }

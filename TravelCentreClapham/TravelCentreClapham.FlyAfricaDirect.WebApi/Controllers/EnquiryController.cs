@@ -9,6 +9,7 @@ using TravelCentreClapham.FlyAfricaDirect.Main.Services;
 
 namespace TravelCentreClapham.FlyAfricaDirect.WebApi.Controllers
 {
+    [RoutePrefix("api/Enquiry")]
     public class EnquiryController : ApiController
     {
         private readonly IEnquiryFormService _enquiryFormService;
@@ -18,33 +19,12 @@ namespace TravelCentreClapham.FlyAfricaDirect.WebApi.Controllers
             _enquiryFormService = enquiryFormService;
         }
 
-        // GET api/<controller>
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/<controller>/5
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/<controller>
-        public bool Post([FromBody]CustomerDto customer)
+        [HttpPost]
+        [Route("AfricanWebsiteOffer01")]
+        public bool Post(EnquiryForm01Dto customer)
         {            
             _enquiryFormService.Add(customer);
             return true;
-        }
-
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
         }
     }
 }

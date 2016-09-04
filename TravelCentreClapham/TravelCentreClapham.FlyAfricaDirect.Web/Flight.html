@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <link rel="shortcut icon" href="FavIcon">
+    <title>Title - NexusCore 3</title>
+    <meta name="keywords" content="Keywords" />
+    <meta name="description" content="Description" />
+    <meta name="author" content="nexuscore">
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
+    <link href="/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">-->
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+</head>
+<body ng-app="nexusCore.Web">
+    <form novalidate>
+
+        <div class="banner" style="background: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12" ng-controller="sample as sampleController" ng-init="init()">
+                        <!-- BEGIN FORM-->
+                        <div class="main-banner">
+                            <div class="banner-r pull-right">
+                                <div class="main-border">
+                                    <div class="house-form">
+                                        <div class="form-l" ng-show="!enquiryForm.submited">
+                                            <div class="first-sec2" style="color: white; padding-left: 15px;">
+                                                Register you get your voucher and be kept updated about our regular Special Offers to Africa.
+                                            </div>
+                                            <div class="first-sec2">
+                                                <input type="text" placeholder="First Name" ng-model="enquiryForm.value.FirstName" maxlength="50"/>
+                                                <div ng-show="enquiryForm.error.firstNameRequired" class="errormessage"><b>Please enter your firstname.</b>
+                                                </div>
+                                            </div>
+                                            <div class="first-sec2">
+                                                <input type="text" placeholder="Last Name" ng-model="enquiryForm.value.LastName" maxlength="50"/>
+                                                <div ng-show="enquiryForm.error.lastNameRequired" class="errormessage">Please enter your lastname.</div>
+                                            </div>
+                                            <div class="first-sec2">
+                                                <select style="width: 95%;" ng-model="enquiryForm.value.PreferredDestination">
+                                                    <option value="">Select a Preferred Destination</option>
+                                                    <option value="Ghana">Ghana</option>
+                                                    <option value="Nigeria">Nigeria</option>
+                                                    <option value="Algeria">Algeria</option>
+                                                    <option value="Angola">Angola</option>
+                                                    <option value="Benin">Benin</option>
+                                                    <option value="Botswana">Botswana</option>
+                                                    <option value="Burkina Faso">Burkina Faso</option>
+                                                    <option value="Burundi">Burundi</option>
+                                                    <option value="Cabo Verde">Cabo Verde</option>
+                                                    <option value="Cameroon">Cameroon</option>
+                                                    <option value="Central African Republic">Central African Republic</option>
+                                                    <option value="Chad">Chad</option>
+                                                    <option value="Comoros">Comoros</option>
+                                                    <option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the</option>
+                                                    <option value="Congo, Republic of the">Congo, Republic of the</option>
+                                                    <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                                                    <option value="Djibouti">Djibouti</option>
+                                                    <option value="Egypt">Egypt</option>
+                                                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                                    <option value="Eritrea">Eritrea</option>
+                                                    <option value="Ethiopia">Ethiopia</option>
+                                                    <option value="Gabon">Gabon</option>
+                                                    <option value="Gambia">Gambia</option>
+                                                    <option value="Ghana">Ghana</option>
+                                                    <option value="Guinea">Guinea</option>
+                                                    <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                                    <option value="Kenya">Kenya</option>
+                                                    <option value="Lesotho">Lesotho</option>
+                                                    <option value="Liberia">Liberia</option>
+                                                    <option value="Libya">Libya</option>
+                                                    <option value="Madagascar">Madagascar</option>
+                                                    <option value="Malawi">Malawi</option>
+                                                    <option value="Mali">Mali</option>
+                                                    <option value="Mauritania">Mauritania</option>
+                                                    <option value="Mauritius">Mauritius</option>
+                                                    <option value="Morocco">Morocco</option>
+                                                    <option value="Mozambique">Mozambique</option>
+                                                    <option value="Namibia">Namibia</option>
+                                                    <option value="Niger">Niger</option>
+                                                    <option value="Nigeria">Nigeria</option>
+                                                    <option value="Rwanda">Rwanda</option>
+                                                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                                    <option value="Senegal">Senegal</option>
+                                                    <option value="Seychelles">Seychelles</option>
+                                                    <option value="Sierra Leone">Sierra Leone</option>
+                                                    <option value="Somalia">Somalia</option>
+                                                    <option value="South Africa">South Africa</option>
+                                                    <option value="South Sudan">South Sudan</option>
+                                                    <option value="Sudan">Sudan</option>
+                                                    <option value="Swaziland">Swaziland</option>
+                                                    <option value="Tanzania">Tanzania</option>
+                                                    <option value="Togo">Togo</option>
+                                                    <option value="Tunisia">Tunisia</option>
+                                                    <option value="Uganda">Uganda</option>
+                                                    <option value="Zambia">Zambia</option>
+                                                    <option value="Zimbabwe">Zimbabwe</option>
+                                                </select>
+                                                <div ng-show="enquiryForm.error.preferredDestinationRequired" class="errormessage">Please choose your destination.</div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="first-sec2">
+                                                <input type="text" placeholder="Mobile Phone Number" ng-model="enquiryForm.value.MobilePhoneNumber" maxlength="50"/>
+                                                <div ng-show="enquiryForm.error.mobilePhoneNumberRequired" class="errormessage">Please enter your mobile number.</div>
+                                            </div>
+                                            <div class="first-sec2">
+                                                <input type="text" placeholder="Email" ng-model="enquiryForm.value.Email" maxlength="100"/>
+                                                <div ng-show="enquiryForm.error.emailRequired" class="errormessage">Please enter your email.</div>
+                                                <div ng-show="!enquiryForm.error.emailRequired && enquiryForm.error.emailValid" class="errormessage">Please enter a valid email.</div>
+                                            </div>
+
+                                            <div class="search-btn">
+                                                <a href="" ng-click="submit()">Submit</a>
+                                            </div>
+                                        </div>
+                                        <div class="form-l" ng-show="enquiryForm.submited">
+                                            <div class="first-sec2" style="color: white; padding-left: 15px;">
+                                                Thank you for register with us.
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-s">
+
+                                <div> Picture</div>
+
+
+                            </div>
+
+                        </div>
+                        <!-- END FORM-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="main-banner">
+                            <div class="banner-r">
+                                <div class="main-border">
+                                    <div class="submit-btn"><a href="#">Flights</a> </div>
+                                    <div class="house-form">
+                                        <div class="main-radio">
+                                            <div class="radio-btn">
+                                                <asp:RadioButton ID="radioBtnReturn" runat="server" Text="Return" GroupName="TripType"
+                                                                 AutoPostBack="False" onclick="HideReturn(false)" Checked="True" />
+                                            </div>
+                                            <div class="radio-btn">
+                                                <asp:RadioButton ID="radioBtnOneWay" runat="server" Text="One Way" GroupName="TripType"
+                                                                 AutoPostBack="False" onclick="HideReturn(true)" />
+                                            </div>
+                                            <div class="radio-btn2">
+                                                <asp:RadioButton ID="radioMulti" runat="server" Text="Multiple Destinations" GroupName="TripType"
+                                                                 AutoPostBack="False" onclick="javascript:window.location='#'" />
+                                            </div>
+                                        </div>
+                                        <div class="errormessage" id="divError" runat="server" visible="false">
+                                            <asp:Label ID="lblMessage" runat="server"></asp:Label>
+                                        </div>
+                                        <div class="form-l">
+                                            <div class="first-sec">
+                                                <asp:TextBox ID="txtFrom" runat="server" CssClass="inputboxinner" placeholder="From" Text="London(LON) All Airports"></asp:TextBox>
+                                                <cc1:AutoCompleteExtender ID="AutoCompleteExtender1" runat="server" MinimumPrefixLength="2"
+                                                                          TargetControlID="txtFrom" CompletionInterval="100" ServiceMethod="LoadCities"
+                                                                          ServicePath="~/AutoFill.asmx" CompletionListItemCssClass="listitem" CompletionListHighlightedItemCssClass="hoverlistitem"
+                                                                          CompletionListCssClass="list-flights">
+                                                </cc1:AutoCompleteExtender>
+                                                <asp:TextBox ID="txtTo" runat="server" CssClass="inputboxinner" placeholder="To"></asp:TextBox>
+                                                <cc1:AutoCompleteExtender ID="AutoCompleteExtender2" runat="server" MinimumPrefixLength="2"
+                                                                          TargetControlID="txtTo" CompletionInterval="100" ServiceMethod="LoadCities" ServicePath="~/AutoFill.asmx"
+                                                                          CompletionListItemCssClass="listitem" CompletionListHighlightedItemCssClass="hoverlistitem"
+                                                                          CompletionListCssClass="list-flights">
+                                                </cc1:AutoCompleteExtender>
+                                            </div>
+                                            <div class="first-sec2">
+                                                <asp:TextBox ID="txtStartDate" Columns="12" onfocus="callCalendarMiniGGG('',this,this,'','ctl00_ContentPlaceHolder1_txtStartDate',0,30,1)"
+                                                             runat="server" CssClass="inputboxinner" placeholder="Departure Date" value="Departure Date"></asp:TextBox>
+                                                <span>
+                                                    <img src="GGGDesign/images/form-icon.png" alt="" />
+                                                </span>
+                                            </div>
+                                            <div class="first-sec2" id="endDateDiv">
+                                                <asp:TextBox ID="txtEndDate" runat="server" Columns="12" CssClass="inputboxinner"
+                                                             onfocus="callCalendarMiniGGG('',this,this,'','ctl00_ContentPlaceHolder1_txtEndDate',0,30,1)" placeholder="Return Date" value="Return Date"></asp:TextBox>
+                                                <span>
+                                                    <img src="GGGDesign/images/form-icon.png" alt="" />
+                                                </span>
+                                            </div>
+                                            <div class="first-sec3">
+
+                                                <asp:DropDownList ID="ddlClass" runat="server" CssClass="inputboxinner">
+                                                    <asp:ListItem Value="0">Preferred Class</asp:ListItem>
+                                                    <asp:ListItem Value="1">Economy</asp:ListItem>
+                                                    <asp:ListItem Value="2">Business</asp:ListItem>
+                                                    <asp:ListItem Value="3">First</asp:ListItem>
+                                                    <asp:ListItem Selected="True" Value="0">Any</asp:ListItem>
+                                                </asp:DropDownList>
+                                                <asp:DropDownList ID="ddlAirlines" runat="server" CssClass="inputboxinner">
+                                                    <asp:ListItem Value="--Please Select --">Preferred Airline</asp:ListItem>
+                                                    <asp:ListItem Value="--Please Select --">All Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="EI">Aer Lingus P.L.C.</asp:ListItem>
+                                                    <asp:ListItem Value="SU">Aeroflot Russian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="AR">Aerolineas Argentinas</asp:ListItem>
+                                                    <asp:ListItem Value="5D">Aerolitoral</asp:ListItem>
+                                                    <asp:ListItem Value="VW">Aeromar Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="AM">Aeromexico</asp:ListItem>
+                                                    <asp:ListItem Value="XU">African Express Airways</asp:ListItem>
+                                                    <asp:ListItem Value="8U">Afriqiyah</asp:ListItem>
+                                                    <asp:ListItem Value="DP">Air 2000 Ltd</asp:ListItem>
+                                                    <asp:ListItem Value="8U">Air Afrique</asp:ListItem>
+                                                    <asp:ListItem Value="4L">Air Astana</asp:ListItem>
+                                                    <asp:ListItem Value="BT">Air Baltic</asp:ListItem>
+                                                    <asp:ListItem Value="AB">Air Berlin</asp:ListItem>
+                                                    <asp:ListItem Value="JA">Air Bosnia</asp:ListItem>
+                                                    <asp:ListItem Value="BP">Air Botswana</asp:ListItem>
+                                                    <asp:ListItem Value="AC">Air Canada</asp:ListItem>
+                                                    <asp:ListItem Value="CA">Air China</asp:ListItem>
+                                                    <asp:ListItem Value="4F">Air City</asp:ListItem>
+                                                    <asp:ListItem Value="PE">Air Europe</asp:ListItem>
+                                                    <asp:ListItem Value="AF">Air France</asp:ListItem>
+                                                    <asp:ListItem Value="GN">Air Gabon</asp:ListItem>
+                                                    <asp:ListItem Value="GL">Air Greenland</asp:ListItem>
+                                                    <asp:ListItem Value="NY">Air Iceland</asp:ListItem>
+                                                    <asp:ListItem Value="AI">Air India</asp:ListItem>
+                                                    <asp:ListItem Value="JM">Air Jamaica</asp:ListItem>
+                                                    <asp:ListItem Value="NQ">Air Japan</asp:ListItem>
+                                                    <asp:ListItem Value="TT">Air Lithuania</asp:ListItem>
+                                                    <asp:ListItem Value="FU">Air Littoral</asp:ListItem>
+                                                    <asp:ListItem Value="LK">Air Luxor</asp:ListItem>
+                                                    <asp:ListItem Value="KM">Air Malta Company</asp:ListItem>
+                                                    <asp:ListItem Value="MK">Air Mauritius</asp:ListItem>
+                                                    <asp:ListItem Value="ZV">Air Midwest</asp:ListItem>
+                                                    <asp:ListItem Value="SW">Air Namibia</asp:ListItem>
+                                                    <asp:ListItem Value="NZ">Air New Zealand</asp:ListItem>
+                                                    <asp:ListItem Value="EL">Air Nippon Co.</asp:ListItem>
+                                                    <asp:ListItem Value="PX">Air Niugini</asp:ListItem>
+                                                    <asp:ListItem Value="FJ">Air Pacific Limited</asp:ListItem>
+                                                    <asp:ListItem Value="HM">Air Seychelles</asp:ListItem>
+                                                    <asp:ListItem Value="GM">Air Slovakia</asp:ListItem>
+                                                    <asp:ListItem Value="TN">Air Tahiti Nui</asp:ListItem>
+                                                    <asp:ListItem Value="TC">Air Tanzania</asp:ListItem>
+                                                    <asp:ListItem Value="6U">Air Ukraine</asp:ListItem>
+                                                    <asp:ListItem Value="UM">Air Zimbabwe</asp:ListItem>
+                                                    <asp:ListItem Value="AS">Alaska Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="LV">Albanian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="AZ">Alitalia</asp:ListItem>
+                                                    <asp:ListItem Value="XM">Alitalia Express</asp:ListItem>
+                                                    <asp:ListItem Value="NH">All Nippon Airways</asp:ListItem>
+                                                    <asp:ListItem Value="AQ">Aloha Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="HP">America West Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="AA">American Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="MQ">American Eagle Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="OZ">Asiana Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="AO">Australian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="OS">Austrian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="AV">Avianca</asp:ListItem>
+                                                    <asp:ListItem Value="UP">Bahamasair</asp:ListItem>
+                                                    <asp:ListItem Value="PG">Bangkok Airways</asp:ListItem>
+                                                    <asp:ListItem Value="B3">Bellview</asp:ListItem>
+                                                    <asp:ListItem Value="J8">Berjaya Air</asp:ListItem>
+                                                    <asp:ListItem Value="BG">Biman Bangladesh</asp:ListItem>
+                                                    <asp:ListItem Value="BD">bmi british midland</asp:ListItem>
+                                                    <asp:ListItem Value="WW">bmibaby</asp:ListItem>
+                                                    <asp:ListItem Value="BU">Braathens ASA</asp:ListItem>
+                                                    <asp:ListItem Value="BA">British Airways</asp:ListItem>
+                                                    <asp:ListItem Value="TH">British Airways Citiexpress</asp:ListItem>
+                                                    <asp:ListItem Value="BE">British European</asp:ListItem>
+                                                    <asp:ListItem Value="KJ">British Mediterranean Airways</asp:ListItem>
+                                                    <asp:ListItem Value="SN">Brussels Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="FB">Bulgaria Air</asp:ListItem>
+                                                    <asp:ListItem Value="BW">BWIA West Indies Airways</asp:ListItem>
+                                                    <asp:ListItem Value="CX">Cathay Pacific Airways</asp:ListItem>
+                                                    <asp:ListItem Value="KX">Cayman Airways</asp:ListItem>
+                                                    <asp:ListItem Value="CI">China Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="MU">China Eastern</asp:ListItem>
+                                                    <asp:ListItem Value="CZ">China Southern</asp:ListItem>
+                                                    <asp:ListItem Value="CF">City Airline</asp:ListItem>
+                                                    <asp:ListItem Value="WX">City Jet</asp:ListItem>
+                                                    <asp:ListItem Value="OH">Comair Inc.</asp:ListItem>
+                                                    <asp:ListItem Value="DE">Condor</asp:ListItem>
+                                                    <asp:ListItem Value="CO">Continental Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="OU">Croatia Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="CU">Cubana</asp:ListItem>
+                                                    <asp:ListItem Value="CY">Cyprus Airways</asp:ListItem>
+                                                    <asp:ListItem Value="YK">Cyprus Turkish</asp:ListItem>
+                                                    <asp:ListItem Value="OK">Czech Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="DL">Delta Air Lines</asp:ListItem>
+                                                    <asp:ListItem Value="VB">Duo Airways</asp:ListItem>
+                                                    <asp:ListItem Value="MS">Egyptair</asp:ListItem>
+                                                    <asp:ListItem Value="LY">El Al Israel Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="EK">Emirates Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="OV">Estonian Air Lines</asp:ListItem>
+                                                    <asp:ListItem Value="ET">Ethiopian Air Lines</asp:ListItem>
+                                                    <asp:ListItem Value="EY">Etihad Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="GJ">EuroFly</asp:ListItem>
+                                                    <asp:ListItem Value="BR">EVA Airways Corporation</asp:ListItem>
+                                                    <asp:ListItem Value="AY">Finnair</asp:ListItem>
+                                                    <asp:ListItem Value="GA">Garuda Indonesian</asp:ListItem>
+                                                    <asp:ListItem Value="GT">GB Airways</asp:ListItem>
+                                                    <asp:ListItem Value="GF">Gulf Air Company</asp:ListItem>
+                                                    <asp:ListItem Value="HA">Hawaiian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="ZU">Helios Airways</asp:ListItem>
+                                                    <asp:ListItem Value="DU">Hemus Air</asp:ListItem>
+                                                    <asp:ListItem Value="T4">Hellas Jet</asp:ListItem>
+                                                    <asp:ListItem Value="IB">Iberia</asp:ListItem>
+                                                    <asp:ListItem Value="FI">Icelandair</asp:ListItem>
+                                                    <asp:ListItem Value="IC">Indian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="2S">Island Express</asp:ListItem>
+                                                    <asp:ListItem Value="JL">Japan Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="9W">Jet Airways India</asp:ListItem>
+                                                    <asp:ListItem Value="KQ">Kenya Airways</asp:ListItem>
+                                                    <asp:ListItem Value="IT">Kingfisher</asp:ListItem>
+                                                    <asp:ListItem Value="WA">KLM Cityhopper B V</asp:ListItem>
+                                                    <asp:ListItem Value="XT">KLM Exel</asp:ListItem>
+                                                    <asp:ListItem Value="KL">KLM Royal Dutch Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="UK">KLM UK</asp:ListItem>
+                                                    <asp:ListItem Value="KE">Korean Air</asp:ListItem>
+                                                    <asp:ListItem Value="KU">Kuwait Airways</asp:ListItem>
+                                                    <asp:ListItem Value="LA">Lan Chile S.A.</asp:ListItem>
+                                                    <asp:ListItem Value="TE">Lithuanian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="LO">LOT Polish Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="LT">LTU International Airways</asp:ListItem>
+                                                    <asp:ListItem Value="LH">Lufthansa</asp:ListItem>
+                                                    <asp:ListItem Value="LG">Luxair</asp:ListItem>
+                                                    <asp:ListItem Value="DM">Maersk Air A/S</asp:ListItem>
+                                                    <asp:ListItem Value="MH">Malaysia Airline</asp:ListItem>
+                                                    <asp:ListItem Value="MA">Malev Hungarian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="W5">Mahan Air</asp:ListItem>
+                                                    <asp:ListItem Value="ME">MEA</asp:ListItem>
+                                                    <asp:ListItem Value="IG">Meridiana</asp:ListItem>
+                                                    <asp:ListItem Value="YX">Midwest Express Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="ZB">Monarch Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="MP">Martinair</asp:ListItem>
+                                                    <asp:ListItem Value="8M">Myanmar Airways</asp:ListItem>
+                                                    <asp:ListItem Value="YJ">National Airlines - South Africa</asp:ListItem>
+                                                    <asp:ListItem Value="CE">Nationwide Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="NW">Northwest Airlines Inc</asp:ListItem>
+                                                    <asp:ListItem Value="O8">Oasis Hong Kong</asp:ListItem>
+                                                    <asp:ListItem Value="OA">Olympic Airways</asp:ListItem>
+                                                    <asp:ListItem Value="WY">Oman Air</asp:ListItem>
+                                                    <asp:ListItem Value="PK">Pakistan International Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="PR">Philippine Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="9R">Phuket Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="PH">Polynesian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="NI">Portugalia</asp:ListItem>
+                                                    <asp:ListItem Value="QF">Qantas Airways</asp:ListItem>
+                                                    <asp:ListItem Value="QR">Qatar Airways</asp:ListItem>
+                                                    <asp:ListItem Value="AT">Royal Air Maroc</asp:ListItem>
+                                                    <asp:ListItem Value="BI">Royal Brunei Air</asp:ListItem>
+                                                    <asp:ListItem Value="RJ">Royal Jordanian</asp:ListItem>
+                                                    <asp:ListItem Value="RA">Royal Nepal Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="SK">SAS Scandinavian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="SP">SATA Air Acores</asp:ListItem>
+                                                    <asp:ListItem Value="SV">Saudi Arabian Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="MI">SilkAir</asp:ListItem>
+                                                    <asp:ListItem Value="SQ">Singapore Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="SA">South African Airways</asp:ListItem>
+                                                    <asp:ListItem Value="UL">SriLankan Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="NB">Sterling Air</asp:ListItem>
+                                                    <asp:ListItem Value="LX">SWISS</asp:ListItem>
+                                                    <asp:ListItem Value="RB">Syrian Arab Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="JJ">TAM</asp:ListItem>
+                                                    <asp:ListItem Value="TP">TAP Air Portugal</asp:ListItem>
+                                                    <asp:ListItem Value="RO">Tarom</asp:ListItem>
+                                                    <asp:ListItem Value="TG">Thai Airways Intl</asp:ListItem>
+                                                    <asp:ListItem Value="UN">Transaero Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="TU">Tunis Air</asp:ListItem>
+                                                    <asp:ListItem Value="TK">Turkish Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="VO">Tyrolean Airways</asp:ListItem>
+                                                    <asp:ListItem Value="PS">Ukraine International Airline</asp:ListItem>
+                                                    <asp:ListItem Value="UA">United Airlines Inc</asp:ListItem>
+                                                    <asp:ListItem Value="U6">Ural Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="US">US Airways</asp:ListItem>
+                                                    <asp:ListItem Value="HY">Uzbekistan Airways</asp:ListItem>
+                                                    <asp:ListItem Value="RG">Varig</asp:ListItem>
+                                                    <asp:ListItem Value="VN">Vietnam Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="VS">Virgin Atlantic Airways</asp:ListItem>
+                                                    <asp:ListItem Value="VS">Virgin Nigeria Airways</asp:ListItem>
+                                                    <asp:ListItem Value="VG">VLM Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="VA">Volare Airlines</asp:ListItem>
+                                                    <asp:ListItem Value="IY">Yemenia Yemen Airways</asp:ListItem>
+                                                    <asp:ListItem Value="JU">Yugoslav Airlines -JAT</asp:ListItem>
+                                                    <asp:ListItem Value="Q3">Zambian Airways</asp:ListItem>
+                                                </asp:DropDownList>
+
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="first-sec4 form-change">
+                                                <asp:DropDownList ID="cmbRoom1Adult" runat="server" CssClass="inputboxinner">
+                                                    <asp:ListItem Value="1" Text="Adults"></asp:ListItem>
+                                                    <asp:ListItem Value="1" Text="1"></asp:ListItem>
+                                                    <asp:ListItem Value="2" Text="2"></asp:ListItem>
+                                                    <asp:ListItem Value="3" Text="3"></asp:ListItem>
+                                                    <asp:ListItem Value="4" Text="4"></asp:ListItem>
+                                                    <asp:ListItem Value="5" Text="5"></asp:ListItem>
+                                                    <asp:ListItem Value="6" Text="6"></asp:ListItem>
+                                                </asp:DropDownList>
+                                                <asp:DropDownList ID="cmbRoom1Child" runat="server" CssClass="inputboxinner">
+                                                    <asp:ListItem Value="0" Text="Children(2-11years)"></asp:ListItem>
+                                                    <asp:ListItem Value="0" Text="0"></asp:ListItem>
+                                                    <asp:ListItem Value="1" Text="1"></asp:ListItem>
+                                                    <asp:ListItem Value="2" Text="2"></asp:ListItem>
+                                                    <asp:ListItem Value="3" Text="3"></asp:ListItem>
+                                                    <asp:ListItem Value="4" Text="4"></asp:ListItem>
+                                                    <asp:ListItem Value="5" Text="5"></asp:ListItem>
+                                                    <asp:ListItem Value="6" Text="6"></asp:ListItem>
+                                                </asp:DropDownList>
+                                                <asp:DropDownList ID="cmbRoom1Infant" runat="server" CssClass="inputboxinner">
+                                                    <asp:ListItem Value="0" Text="Infants(<2years)"></asp:ListItem>
+                                                    <asp:ListItem Value="0" Text="0"></asp:ListItem>
+                                                    <asp:ListItem Value="1" Text="1"></asp:ListItem>
+                                                    <asp:ListItem Value="2" Text="2"></asp:ListItem>
+                                                    <asp:ListItem Value="3" Text="3"></asp:ListItem>
+                                                    <asp:ListItem Value="4" Text="4"></asp:ListItem>
+                                                </asp:DropDownList>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                        <div class="form-checkd">
+                                            <span>
+                                                <asp:CheckBox ID="chkDirectFlights" runat="server" />
+                                                Non Stop
+                                            </span> <span>
+                                                <asp:CheckBox ID="chdateflexible" runat="server" />
+                                                My dates are Flexible +/-3
+                                            </span>
+                                        </div>
+                                        <div class="search-btn">
+                                            <asp:LinkButton ID="Search" runat="server" Text="Search Now" OnClick="Search_Click"></asp:LinkButton>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-s pull-right">
+
+                                <div id="topSliderDiv"></div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+        <script src="/assets/global/plugins/respond.min.js"></script>
+        <script src="/assets/global/plugins/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <!--<script src="/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="/assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+    <script src="/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>-->
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN CORE ANGULARJS PLUGINS -->
+    <script src="/Scripts/angular.min.js" type="text/javascript"></script>
+    <script src="/Scripts/angular-dialog/dialogs.min.js"></script>
+    <script src="/Scripts/angular-route.min.js"></script>
+    <script src="/Scripts/angular-resource.min.js" type="text/javascript"></script>
+    <script src="/Scripts/angular-sanitize.min.js" type="text/javascript"></script>
+    <script src="/Scripts/angular-touch.min.js" type="text/javascript"></script>
+    <script src="/Scripts/angular-ui/ui-bootstrap-tpls.js" type="text/javascript"></script>
+    <script src="/Scripts/angular-ui-router.js" type="text/javascript"></script>
+    <script src="/Angular/app.js" type="text/javascript"></script>
+    <!-- END CORE ANGULARJS PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="/Angular/Services/apiCallService.js" type="text/javascript"></script>
+    <script src="/Angular/Services/pageHelperService.js"></script>
+
+    <script src="/Angular/Controllers/flight-index.js"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+
+    <script>
+        jQuery(document).ready(function () {
+        });
+    </script>
+
+</body>
+</html>
