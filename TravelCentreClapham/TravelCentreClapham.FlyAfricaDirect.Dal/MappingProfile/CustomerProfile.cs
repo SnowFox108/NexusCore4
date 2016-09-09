@@ -9,8 +9,8 @@ namespace TravelCentreClapham.FlyAfricaDirect.Dal.MappingProfile
     {
         protected override void Configure()
         {
-            Mapper.CreateMap<Customer, CustomerDto>().IgnoreAllMissingInTarget();
-            Mapper.CreateMap<CustomerDto, Customer>().IgnoreAllMissingInTarget();
+            CreateMap<Customer, CustomerDto>().IgnoreAllMissingInTarget();
+            CreateMap<CustomerDto, Customer>().IgnoreAllMissingInTarget();
         }
     }
 }
