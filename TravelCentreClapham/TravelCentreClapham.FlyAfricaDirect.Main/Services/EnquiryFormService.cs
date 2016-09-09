@@ -17,18 +17,23 @@ namespace TravelCentreClapham.FlyAfricaDirect.Main.Services
         }
 
 
-        public void Add(CustomerDto customer)
+        public void Add(EnquiryForm01Dto customer)
         {
             using (var transaction = new TransactionScope())
             {
-                _customerRepository.Insert(customer.MapTo<Customer>());
-                transaction.Complete();
+                customer.Email = customer.Email.ToLower().Trim();
+                if (CheckEmailExist(customer.Email, customer.PromotionGroupType))
+                {
+                    _customerRepository.Insert(customer.MapTo<Customer>());
+                    transaction.Complete();
+                }
             }
         }
 
         public bool CheckEmailExist(string email, PromotionGroupType promotionGroupType)
         {
-            return (_customerRepository.GetCustomerByEmail(email, promotionGroupType) == null);
+            var result = _customerRepository.GetCustomerByEmail(email, promotionGroupType);
+            return (result == null);
         }
 
         public void OptEmailOut(string email, PromotionGroupType promotionGroupType)

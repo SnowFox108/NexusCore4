@@ -4,7 +4,7 @@ using NexusCore.Infrastructure.Data;
 namespace TravelCentreClapham.FlyAfricaDirect.Dal.Models
 {
     [DataContract]
-    public class CustomerDto : IDto
+    public class EnquiryForm01Dto : IDto
     {
         [DataMember]
         public PromotionGroupType PromotionGroupType { get; set; }

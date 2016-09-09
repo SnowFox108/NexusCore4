@@ -5,25 +5,24 @@ using TravelCentreClapham.FlyAfricaDirect.Dal.Models;
 
 namespace TravelCentreClapham.FlyAfricaDirect.WebApi.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/ModelBuilder")]
     public class ModelBuilderController : ApiController
     {
         [HttpGet]
         [Route("AfricanWebsiteOffer01")]
-        public CustomerDto AfricanWebsiteOffer01()
+        public EnquiryForm01Dto AfricanWebsiteOffer01()
         {
-            return new CustomerDto()
+            return new EnquiryForm01Dto()
             {
-                PromotionGroupType = PromotionGroupType.AfricanWebsiteOffer01
+                PromotionGroupType = PromotionGroupType.AfricanWebsiteOffer01,
             };
         }
 
         [HttpGet]
         [Route("AfricanWebsiteOffer02")]
-        public CustomerDto AfricanWebsiteOffer02()
+        public EnquiryForm01Dto AfricanWebsiteOffer02()
         {
-            return new CustomerDto()
+            return new EnquiryForm01Dto()
             {
                 PromotionGroupType = PromotionGroupType.AfricanWebsiteOffer01
             };
