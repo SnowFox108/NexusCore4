@@ -8,7 +8,10 @@ namespace NexusCore.Infrastructure.Messager
 {
     public class EmailSender : IEmailSender
     {
-        public virtual MailMessage CreateEmail(string subject, string body, bool isBodyHtml, MailPriority priority, Encoding bodyEncoding, string from, string to, string replyTo = null, string bccTo = null, IDictionary<string, string> tokenValues = null, IDictionary<string, Stream> attachments = null)
+        public virtual MailMessage CreateEmail(
+            string subject, string body, bool isBodyHtml, MailPriority priority,
+            Encoding bodyEncoding, string from, string to, string replyTo = null, string bccTo = null,
+            IDictionary<string, string> tokenValues = null, IDictionary<string, Stream> attachments = null)
         {
             var mailMessage = new MailMessage
             {

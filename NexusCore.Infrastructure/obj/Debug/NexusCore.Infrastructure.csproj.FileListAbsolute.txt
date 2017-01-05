@@ -10,3 +10,14 @@ D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServe
 D:\Sample\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.dll
 D:\Sample\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.pdb
 D:\Sample\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.csprojResolveAssemblyReference.cache
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.dll.config
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.dll
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.pdb
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\AutoMapper.dll
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.dll
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\AutoMapper.xml
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.xml
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.dll
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.pdb

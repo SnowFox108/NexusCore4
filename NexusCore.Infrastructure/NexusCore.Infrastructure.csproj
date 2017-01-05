@@ -77,9 +77,9 @@
     <Compile Include="Mappers\AutoMapperAdapterFactory.cs" />
     <Compile Include="Mappers\AutoMapperExtensions.cs" />
     <Compile Include="Mappers\IMapperAdapter.cs" />
-    <Compile Include="Messager\IMailSender.cs" />
+    <Compile Include="Messager\IEmailSender.cs" />
     <Compile Include="Messager\ISmsSender.cs" />
-    <Compile Include="Messager\MailSender.cs" />
+    <Compile Include="Messager\EmailSender.cs" />
     <Compile Include="Messager\TextMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

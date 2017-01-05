@@ -11,5 +11,6 @@ namespace TravelCentreClapham.FlyAfricaDirect.Dal
         }
 
         public virtual IDbSet<Customer> Customers { get; set; }
+        public virtual IDbSet<EmailTemplate> EmailTemplates { get; set; } 
     }
 }

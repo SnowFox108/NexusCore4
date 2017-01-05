@@ -9,3 +9,14 @@ D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Deb
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.csprojResolveAssemblyReference.cache
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.dll
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.pdb
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\TravelCentreClapham.CarHrie.Dal.dll
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\TravelCentreClapham.CarHrie.Dal.pdb
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\NexusCore.Infrastructure.dll
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\AutoMapper.dll
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\EntityFramework.dll
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\NexusCore.Infrastructure.pdb
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\AutoMapper.xml
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\EntityFramework.xml
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.csprojResolveAssemblyReference.cache
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.dll
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.pdb

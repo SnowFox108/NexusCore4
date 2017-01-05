@@ -3,3 +3,7 @@ D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Com
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Common.dll
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Common.pdb
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Common.csprojResolveAssemblyReference.cache
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Common.dll
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Common.pdb
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Common.dll
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Common\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Common.pdb
