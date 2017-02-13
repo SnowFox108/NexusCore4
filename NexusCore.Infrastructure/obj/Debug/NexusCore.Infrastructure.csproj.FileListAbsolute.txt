@@ -21,3 +21,4 @@ F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.xml
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.dll
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.pdb
+F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.csprojResolveAssemblyReference.cache

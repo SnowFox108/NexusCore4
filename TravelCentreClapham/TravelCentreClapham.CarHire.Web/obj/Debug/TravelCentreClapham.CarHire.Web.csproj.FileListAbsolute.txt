@@ -161,3 +161,4 @@ F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Web\bi
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Web\obj\Debug\TravelCentreClapham.CarHire.Web.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Web\obj\Debug\TravelCentreClapham.CarHire.Web.pdb
+F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Web\obj\Debug\TravelCentreClapham.CarHire.Web.csprojResolveAssemblyReference.cache

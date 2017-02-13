@@ -36,24 +36,25 @@ namespace TravelCentreClapham.FlyAfricaDirect.Main.Services
                 if (CheckEmailExist(customer.Email, customer.PromotionGroupType))
                 {
                     _customerRepository.Insert(customer.MapTo<Customer>());
-                    // send out email
-                    var emailTemplate =
-                        _emailTemplateRepository.GetEmailTemplate(new Guid("BFFF3CBF-D9F5-4699-A593-16DDD016E158"));
                     transaction.Complete();
-
-                    _emailSender.SendEmail(
-                        emailTemplate.Subject,
-                        emailTemplate.BodyTemplate,
-                        emailTemplate.IsBodyHtml,
-                        MailPriority.Normal,
-                        Encoding.UTF8,
-                        emailTemplate.From,
-                        customer.Email,
-                        emailTemplate.ReplyTo,
-                        emailTemplate.Bcc,
-                        GetTokenValues(customer)
-                        );
                 }
+
+                // send out email
+                var emailTemplate =
+                    _emailTemplateRepository.GetEmailTemplate(new Guid("BFFF3CBF-D9F5-4699-A593-16DDD016E158"));
+
+                _emailSender.SendEmail(
+                    emailTemplate.Subject,
+                    emailTemplate.BodyTemplate,
+                    emailTemplate.IsBodyHtml,
+                    MailPriority.Normal,
+                    Encoding.UTF8,
+                    emailTemplate.From,
+                    customer.Email,
+                    emailTemplate.ReplyTo,
+                    emailTemplate.Bcc,
+                    GetTokenValues(customer)
+                    );
             }
         }
 
