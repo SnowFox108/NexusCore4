@@ -85,7 +85,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ErrorHandler\" />
-    <Folder Include="FileIO\" />
     <Folder Include="Ioc\" />
     <Folder Include="Log\" />
     <Folder Include="Security\" />
@@ -93,6 +92,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="FileIO\Kubera.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

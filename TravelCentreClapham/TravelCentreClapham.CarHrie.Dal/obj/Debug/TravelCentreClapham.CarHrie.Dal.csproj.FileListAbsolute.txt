@@ -20,3 +20,6 @@ F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bi
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.csprojResolveAssemblyReference.cache
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\FileIO\Kubera.dat
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\NexusCore.Infrastructure.dll.config
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.csproj.CoreCompileInputs.cache

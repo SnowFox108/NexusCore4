@@ -28,3 +28,7 @@ F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirec
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Main.csprojResolveAssemblyReference.cache
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Main.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Main.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\FileIO\Kubera.dat
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\NexusCore.Infrastructure.dll.config
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.dll.config
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Main\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Main.csproj.CoreCompileInputs.cache

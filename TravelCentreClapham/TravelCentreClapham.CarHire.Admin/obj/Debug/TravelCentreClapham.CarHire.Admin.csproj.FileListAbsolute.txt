@@ -182,3 +182,6 @@ F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Admin\
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Admin\obj\Debug\TravelCentreClapham.CarHire.Admin.csprojResolveAssemblyReference.cache
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Admin\obj\Debug\TravelCentreClapham.CarHire.Admin.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Admin\obj\Debug\TravelCentreClapham.CarHire.Admin.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Admin\bin\FileIO\Kubera.dat
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Admin\bin\NexusCore.Infrastructure.dll.config
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Admin\obj\Debug\TravelCentreClapham.CarHire.Admin.csproj.CoreCompileInputs.cache

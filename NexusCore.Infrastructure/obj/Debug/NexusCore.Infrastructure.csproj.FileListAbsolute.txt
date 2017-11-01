@@ -22,3 +22,5 @@ F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.Sql
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.dll
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.pdb
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Sample\NexusCore4\NexusCore.Infrastructure\bin\Debug\FileIO\Kubera.dat
+D:\Sample\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.csproj.CoreCompileInputs.cache

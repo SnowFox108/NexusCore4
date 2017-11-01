@@ -64,3 +64,4 @@ D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Web
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Web\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Web.csprojResolveAssemblyReference.cache
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Web\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Web.dll
 D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Web\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Web.pdb
+D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Web\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Web.csproj.CoreCompileInputs.cache
