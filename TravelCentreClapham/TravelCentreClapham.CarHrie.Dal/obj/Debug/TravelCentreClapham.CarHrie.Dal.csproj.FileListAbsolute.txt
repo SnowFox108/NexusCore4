@@ -1,14 +1,3 @@
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\TravelCentreClapham.CarHrie.Dal.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\TravelCentreClapham.CarHrie.Dal.pdb
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\NexusCore.Infrastructure.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\AutoMapper.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\EntityFramework.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\NexusCore.Infrastructure.pdb
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\AutoMapper.xml
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\EntityFramework.xml
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.csprojResolveAssemblyReference.cache
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.pdb
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\TravelCentreClapham.CarHrie.Dal.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\TravelCentreClapham.CarHrie.Dal.pdb
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\NexusCore.Infrastructure.dll
@@ -20,6 +9,3 @@ F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bi
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.csprojResolveAssemblyReference.cache
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.pdb
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\FileIO\Kubera.dat
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\bin\Debug\NexusCore.Infrastructure.dll.config
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHrie.Dal\obj\Debug\TravelCentreClapham.CarHrie.Dal.csproj.CoreCompileInputs.cache
