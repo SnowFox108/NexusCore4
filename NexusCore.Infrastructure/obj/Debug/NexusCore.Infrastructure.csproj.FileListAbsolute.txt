@@ -10,3 +10,16 @@ F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.Sql
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.dll
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.pdb
 F:\MyWorkSpace\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.csprojResolveAssemblyReference.cache
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.dll.config
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.dll
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\NexusCore.Infrastructure.pdb
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\AutoMapper.dll
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.dll
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\AutoMapper.xml
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.xml
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.csprojResolveAssemblyReference.cache
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.csproj.CoreCompileInputs.cache
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.dll
+F:\MyGitHub\NexusCore4\NexusCore.Infrastructure\obj\Debug\NexusCore.Infrastructure.pdb

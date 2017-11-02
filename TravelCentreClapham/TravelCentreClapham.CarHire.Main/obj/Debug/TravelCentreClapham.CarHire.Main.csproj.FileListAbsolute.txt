@@ -3,3 +3,9 @@ F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\b
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\obj\Debug\TravelCentreClapham.CarHire.Main.csprojResolveAssemblyReference.cache
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\obj\Debug\TravelCentreClapham.CarHire.Main.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\obj\Debug\TravelCentreClapham.CarHire.Main.pdb
+F:\MyGitHub\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\bin\Debug\TravelCentreClapham.CarHire.Main.dll
+F:\MyGitHub\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\bin\Debug\TravelCentreClapham.CarHire.Main.pdb
+F:\MyGitHub\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\obj\Debug\TravelCentreClapham.CarHire.Main.csprojResolveAssemblyReference.cache
+F:\MyGitHub\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\obj\Debug\TravelCentreClapham.CarHire.Main.csproj.CoreCompileInputs.cache
+F:\MyGitHub\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\obj\Debug\TravelCentreClapham.CarHire.Main.dll
+F:\MyGitHub\NexusCore4\TravelCentreClapham\TravelCentreClapham.CarHire.Main\obj\Debug\TravelCentreClapham.CarHire.Main.pdb
