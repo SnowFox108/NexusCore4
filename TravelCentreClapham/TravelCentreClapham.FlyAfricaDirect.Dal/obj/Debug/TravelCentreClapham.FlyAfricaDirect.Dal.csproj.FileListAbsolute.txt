@@ -1,17 +1,3 @@
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.dll.config
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.pdb
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\AutoMapper.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\EntityFramework.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\EntityFramework.SqlServer.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\NexusCore.Infrastructure.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\NexusCore.Infrastructure.pdb
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\AutoMapper.xml
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\EntityFramework.xml
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\EntityFramework.SqlServer.xml
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.csprojResolveAssemblyReference.cache
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.dll
-D:\Sample\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\obj\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.pdb
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.dll.config
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.dll
 F:\MyWorkSpace\NexusCore4\TravelCentreClapham\TravelCentreClapham.FlyAfricaDirect.Dal\bin\Debug\TravelCentreClapham.FlyAfricaDirect.Dal.pdb
